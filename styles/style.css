@@ -167,3 +167,59 @@ main section {
 .skill:hover {
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.20);
 }
+
+/* resume section styles */
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.resume-column-title {
+    font-size: 30px;
+}
+
+.experience-title {
+    font-size: 25px;
+}
+
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description {
+    font-size: 16px;
+}
+
+.resume-download-btn {
+    margin-top: 50px;
+}
+
+/* footer styles */
+
+footer {
+    padding: 130px 230px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"], input[type="email"], textarea{
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    font-size: 18px;
+    margin: 15px 5px;
+}
