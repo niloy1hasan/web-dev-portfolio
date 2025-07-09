@@ -9,14 +9,27 @@
     "wdth" 100;
 }
 
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
 
 /* shared style */
 .text-primary {
     color: #FD6E0A;
 }
 
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
 .dark-2 {
     color: #474747;
+}
+
+.dark-3 {
+    color: #757575;
 }
 
 .btn-primary {
@@ -29,6 +42,21 @@
     border: none;
 }
 
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
+
+
+.text-center {
+    text-align: center;
+}
 
 /* Header Styles */
 
@@ -95,3 +123,47 @@ nav li a {
     width: 580px;
 }
 
+/* main part Styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* About Section Styles */
+
+.about {
+    border-radius: 10px;
+    padding: 130px 155px;
+    text-align: center;
+}
+
+.item-description {
+    font-weight: 600;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* skills section Styles */
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.skill:hover {
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.20);
+}
