@@ -16,6 +16,7 @@
 
 
 /* shared style */
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -222,4 +223,45 @@ footer input[type="text"], input[type="email"], textarea{
     border: none;
     font-size: 18px;
     margin: 15px 5px;
+}
+
+
+.hide {
+    display: none;
+}
+
+/* responsive media query */
+
+@media screen and (max-width: 576px) {
+
+    /* about */
+
+    .about {
+        padding: 30px 40px;
+    }
+
+    .about-items {
+        flex-direction: column;
+    }
+
+
+    .skills-container, .resume-container, .footer-container {
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+    } 
+
+
+    /* footer */
+    footer {
+        padding: 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    footer input[type="text"], input[type="email"], textarea {
+        width: calc(100% - 40px);
+    }
 }
