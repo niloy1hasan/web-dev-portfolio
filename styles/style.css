@@ -234,6 +234,34 @@ footer input[type="text"], input[type="email"], textarea{
 
 @media screen and (max-width: 576px) {
 
+    .btn-primary {
+        margin-bottom: 20px;
+    }
+
+    /* header */
+
+    nav {
+        margin: 0 20px;
+        flex-direction: column;
+    }
+
+    nav > ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    .banner {
+        flex-direction: column;
+        margin: 0 35px;
+    }
+
+    .banner-profile-picture {
+        width: 100%;
+    }
     /* about */
 
     .about {
